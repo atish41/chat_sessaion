@@ -1,7 +1,7 @@
 # from flask t Flask, request, jsonify
 from flask import Flask, request, jsonify
 from pprint import pprint
-from main import get_chat
+from app import get_chat
 
 
 app= Flask(__name__)
